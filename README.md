@@ -1,6 +1,9 @@
 # M031BSP_INT_PWM_ADC
 M031BSP_INT_PWM_ADC
 
+#### UNDER \Library\CMSIS\Core\Include , REPLACE WITH KEIL V5 version
+
+
 update @ 2026/03/26
 
 1. init UART0 (PB12 : UART0_RX , PB13 : UART0_TX) for printf
