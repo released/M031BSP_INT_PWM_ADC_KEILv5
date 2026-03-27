@@ -1,5 +1,5 @@
-# M031BSP_INT_PWM_ADC
-M031BSP_INT_PWM_ADC
+# M031BSP_INT_PWM_ADC_KEILv5
+M031BSP_INT_PWM_ADC_KEILv5
 
 # UNDER \Library\CMSIS\Core\Include , REPLACE WITH KEIL V5 version
 
@@ -33,7 +33,7 @@ update @ 2026/03/26
 
 - PA7:TM2 , for emulate singal OUTPUT ONLY , PWM output with 1.8K@50% duty(as 100rpm),13.5K@50% duty(as 750rpm) , connect to PA8:TIM3_EXT
 
-![image](https://github.com/released/M031BSP_INT_PWM_ADC/blob/main/M031LC2AE(LQFP48).jpg) 
+![image](https://github.com/released/M031BSP_INT_PWM_ADC_KEILv5/blob/main/M031LC2AE(LQFP48).jpg) 
 
 
 4. use UART terminal 
@@ -87,73 +87,73 @@ update @ 2026/03/26
 
 5. Below is ADC log
 
-![image](https://github.com/released/M031BSP_INT_PWM_ADC/blob/main/log_adc.jpg) 
+![image](https://github.com/released/M031BSP_INT_PWM_ADC_KEILv5/blob/main/log_adc.jpg) 
 
 
 Below is log mesage and scope capture , about emulate singal-PA7:TM2 , freq change
 
 from RPM 100
 
-![image](https://github.com/released/M031BSP_INT_PWM_ADC/blob/main/log_rpm_input_1.jpg) 
+![image](https://github.com/released/M031BSP_INT_PWM_ADC_KEILv5/blob/main/log_rpm_input_1.jpg) 
 
-![image](https://github.com/released/M031BSP_INT_PWM_ADC/blob/main/scope_rpm_100.jpg) 
+![image](https://github.com/released/M031BSP_INT_PWM_ADC_KEILv5/blob/main/scope_rpm_100.jpg) 
 
 to RPM 750
 
-![image](https://github.com/released/M031BSP_INT_PWM_ADC/blob/main/log_rpm_input_2.jpg) 
+![image](https://github.com/released/M031BSP_INT_PWM_ADC_KEILv5/blob/main/log_rpm_input_2.jpg) 
 
-![image](https://github.com/released/M031BSP_INT_PWM_ADC/blob/main/scope_rpm_750.jpg) 
+![image](https://github.com/released/M031BSP_INT_PWM_ADC_KEILv5/blob/main/scope_rpm_750.jpg) 
 
 Below is log mesage , about PA8 : TIM3_EXT , RPM calcuate result
 
 from RPM 100
 
-![image](https://github.com/released/M031BSP_INT_PWM_ADC/blob/main/log_rpm_capture_1.jpg) 
+![image](https://github.com/released/M031BSP_INT_PWM_ADC_KEILv5/blob/main/log_rpm_capture_1.jpg) 
 
 to RPM 750
 
-![image](https://github.com/released/M031BSP_INT_PWM_ADC/blob/main/log_rpm_capture_2.jpg) 
+![image](https://github.com/released/M031BSP_INT_PWM_ADC_KEILv5/blob/main/log_rpm_capture_2.jpg) 
 
 
 Below is log mesage , about PC5:PWM1_CH0 , output freq : 18K , duty change
 
-![image](https://github.com/released/M031BSP_INT_PWM_ADC/blob/main/log_pwm_output_1.jpg) 
+![image](https://github.com/released/M031BSP_INT_PWM_ADC_KEILv5/blob/main/log_pwm_output_1.jpg) 
 
-![image](https://github.com/released/M031BSP_INT_PWM_ADC/blob/main/log_pwm_output_2.jpg) 
+![image](https://github.com/released/M031BSP_INT_PWM_ADC_KEILv5/blob/main/log_pwm_output_2.jpg) 
 
 
 below is scope capture , about PB5:EINT0 , to detect input pulse
 
-![image](https://github.com/released/M031BSP_INT_PWM_ADC/blob/main/scope_input_100Hz.jpg) 
+![image](https://github.com/released/M031BSP_INT_PWM_ADC_KEILv5/blob/main/scope_input_100Hz.jpg) 
 
 
 below is scope capture , about PB5:EINT0 , to detect input pulse and PC5:PWM1_CH0 , output freq : 18K , duty change
 
 PC5:PWM1_CH0 , output freq : 18K , duty : 10%
 
-![image](https://github.com/released/M031BSP_INT_PWM_ADC/blob/main/scope_input_100Hz_output_18K_10.jpg) 
+![image](https://github.com/released/M031BSP_INT_PWM_ADC_KEILv5/blob/main/scope_input_100Hz_output_18K_10.jpg) 
 
-![image](https://github.com/released/M031BSP_INT_PWM_ADC/blob/main/scope_input_100Hz_output_18K_10_2.jpg) 
+![image](https://github.com/released/M031BSP_INT_PWM_ADC_KEILv5/blob/main/scope_input_100Hz_output_18K_10_2.jpg) 
 
 
 PC5:PWM1_CH0 , output freq : 18K , duty : 20%
 
-![image](https://github.com/released/M031BSP_INT_PWM_ADC/blob/main/scope_input_100Hz_output_18K_20.jpg) 
+![image](https://github.com/released/M031BSP_INT_PWM_ADC_KEILv5/blob/main/scope_input_100Hz_output_18K_20.jpg) 
 
 
 PC5:PWM1_CH0 , output freq : 18K , duty : 40%
 
-![image](https://github.com/released/M031BSP_INT_PWM_ADC/blob/main/scope_input_100Hz_output_18K_40.jpg) 
+![image](https://github.com/released/M031BSP_INT_PWM_ADC_KEILv5/blob/main/scope_input_100Hz_output_18K_40.jpg) 
 
 
 PC5:PWM1_CH0 , output freq : 18K , duty : 60%
 
-![image](https://github.com/released/M031BSP_INT_PWM_ADC/blob/main/scope_input_100Hz_output_18K_60.jpg) 
+![image](https://github.com/released/M031BSP_INT_PWM_ADC_KEILv5/blob/main/scope_input_100Hz_output_18K_60.jpg) 
 
 
 PC5:PWM1_CH0 , output freq : 18K , duty : 99%
 
-![image](https://github.com/released/M031BSP_INT_PWM_ADC/blob/main/scope_input_100Hz_output_18K_99.jpg) 
+![image](https://github.com/released/M031BSP_INT_PWM_ADC_KEILv5/blob/main/scope_input_100Hz_output_18K_99.jpg) 
 
-![image](https://github.com/released/M031BSP_INT_PWM_ADC/blob/main/scope_input_100Hz_output_18K_99_2.jpg) 
+![image](https://github.com/released/M031BSP_INT_PWM_ADC_KEILv5/blob/main/scope_input_100Hz_output_18K_99_2.jpg) 
 
